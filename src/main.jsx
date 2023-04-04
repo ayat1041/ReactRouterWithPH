@@ -47,9 +47,13 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact></Contact>,
-      },
+      }
     ],
   },
+  {
+    path: "*",
+    element: <div>404 Not found brah!</div>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

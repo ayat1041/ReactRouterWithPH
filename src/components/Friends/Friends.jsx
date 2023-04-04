@@ -8,7 +8,7 @@ const Friends = () => {
   return (
     <div>
       <h2>These are my {data.length} friends</h2>
-      <div>
+      <div style={{display: "flex",flexWrap:"wrap",justifyContent: "center"}}>
         {data.map((friend) => (
           <Friend key={friend.id} friend={friend}></Friend>
         ))}

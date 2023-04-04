@@ -1,0 +1,17 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: tomato;
+    display: flex;
+    font-size: 32px;
+    justify-content: space-around;
+}
+.navbar a{
+    text-decoration: none;
+    color: wheat;
+}
+.navbar a:hover{
+    color: olive;
+}
