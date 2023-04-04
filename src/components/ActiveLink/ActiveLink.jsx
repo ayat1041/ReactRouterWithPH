@@ -5,10 +5,10 @@ const ActiveLink = ({ to,children }) => {
   return (
     <NavLink
       to={to}
-    //   className={({ isActive }) =>
-          className={({ isActive, isPending }) =>
-        //   isActive ? "active" : " "
-        isActive ? "active" : isPending ? "pending" : " "
+      className={({ isActive }) =>
+          // className={({ isActive, isPending }) =>
+          isActive ? "active" : " "
+        // isActive ? "active" : isPending ? "pending" : " "
       }
     >
         {children}
