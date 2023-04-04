@@ -19,6 +19,7 @@ const Friend = ({ friend }) => {
         padding: "14px",
         borderRadius: "6px",
         width: "320px",
+        boxShadow: "2px 2px 2px black",
       }}
     >
       <h3>{name}</h3>

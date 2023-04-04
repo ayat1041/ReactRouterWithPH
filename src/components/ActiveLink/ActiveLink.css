@@ -1,6 +1,6 @@
 .active{
-    background-color: red;
+    color: yellow;
 }
-.pending{
+/* .pending{
     background-color: greenyellow;
-}
+} */
