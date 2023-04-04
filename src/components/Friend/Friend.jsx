@@ -3,11 +3,12 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Friend = ({ friend }) => {
   const { email, name, id, phone } = friend;
-  const navigate = useNavigate();
-  const handleNavigation = () => {
-    navigate(-1);
-    // navigate(`/friend/${id}`);
-  }
+
+//   const navigate = useNavigate();
+//   const handleNavigation = () => {
+//     navigate(-1);
+//     // navigate(`/friend/${id}`);
+//   }
   return (
     <div
       style={{
@@ -39,7 +40,7 @@ const Friend = ({ friend }) => {
         >
           Show details
         </Link>
-        <button onClick={handleNavigation}>Back</button>
+
       </p>
     </div>
   );
